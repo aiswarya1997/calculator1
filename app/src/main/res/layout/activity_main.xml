@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#bb00a8"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/add"
+       android:text="ADD"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub"
+        android:text="SUBTRACT"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mu"
+        android:text="MULTIPLICATION"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/div"
+        android:text="DIVISION"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frg"
+        android:text="FIND LARGEST"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sm"
+        android:text="FIND SMALLEST"/>
+</LinearLayout>
